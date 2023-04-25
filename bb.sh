@@ -22,7 +22,7 @@ global_variables() {
     # Blog title
     global_title="El Blog de Blackgallina"
     # The typical subtitle for each blog
-    global_description="Un blog sobre las cosas que me pasan y que aprendo durante mi vida"
+    global_description="Un blog sobre las cosas que me pasan y que aprendo en el camino"
     # The public base URL for this blog
     global_url="https://overfeededmonkey.github.io"
 
