@@ -11,7 +11,7 @@
 <div class="headerholder"><div class="header">
 <div id="title">
 <h1 class="nomargin"><a class="ablack" href="https://overfeededmonkey.github.io/index.html">El Blog de Blackgallina</a></h1>
-<div id="description">Un blog sobre las cosas que me pasan y que aprendo durante mi vida</div>
+<div id="description">Un blog sobre las cosas que me pasan y que aprendo en el camino</div>
 </div></div></div>
 <div id="divbody"><div class="content">
 <!-- entry begin -->
@@ -27,23 +27,43 @@ Carlos Blackgallina
 <p>Debido a que soy "estudiante" de programación del programa 42, iré comentando aquellos aspectos más interesantes, complejos o curiosos de los ejercicios que vayamos haciendo,
 tanto para dejalo aquí comentado, como para yo tenerlo para la posteridad y pueda releerlo (y tal vez corregirlo!)</p>
 
-<h2>Code</h2>
-<p>Inline <code>code</code></p>
-<p>Indented code</p>
+<h3>Codigo de ejemplo</h3>
 <pre><code>// Some comments
-line 1 of code
-line 2 of code
-line 3 of code
-</code></pre>
-<p>Block code “fences”</p>
-<pre class="hljs"><code>Sample text here...
-</code></pre>
-<p>Syntax highlighting</p>
-<pre class="hljs language-js"><code><span class="hljs-keyword">var</span> foo = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">bar</span>) </span>{
-  <span class="hljs-keyword">return</span> bar++;
-};
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_file.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: clopez-s <clopez-s@student.42barcel>       +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/04/20 15:34:58 by clopez-s          #+#    #+#             */
+/*   Updated: 2023/04/20 16:36:08 by clopez-s         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-<span class="hljs-built_in">console</span>.log(foo(<span class="hljs-number">5</span>));
+#include <ft_string.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int	ft_load_file(char *filename)
+{
+	int		fd;
+	char	buff[2];
+
+	fd = open(filename, O_RDONLY);
+	if (fd < 0)
+	{
+		return (0);
+	}
+	while (read(fd, buff, 1) != 0)
+	{
+		buff[1] = '\0';
+		ft_printstr(buff);
+	}	
+	close(fd);
+	return (1);
+}
 </code></pre>
 
 <p>Etiquetas: <a href='tag_test.html'>test</a>, <a href='tag_c.html'>c</a>, <a href='tag_formato.html'>formato</a></p>
