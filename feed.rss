@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel><title>My fancy blog</title><link>http://example.com/blog/index.html</link>
+<description>A blog about turtles and carrots</description><language>en</language>
+<lastBuildDate>Tue, 25 Apr 2023 02:10:20 +0200</lastBuildDate>
+<pubDate>Tue, 25 Apr 2023 02:10:20 +0200</pubDate>
+<atom:link href="http://example.com/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Primera entrada del Blog
+</title><description><![CDATA[
+
+<p>Esta es la primera entrada del que espero que sea el blog donde queden reflejadas mis acciones y pensamientos
+sobre lo que me va sucediendo en la vida.</p>
+<p>Ahora mismo son las 2:09 AM del 25 de Abril de 2023</p>
+
+<p>Tags: <a href='tag_hello-world.html'>hello-world</a>, <a href='tag_inicio.html'>inicio</a></p>
+<!-- text end -->
+]]></description><link>http://example.com/blog/primera-entrada-del-blog.html</link>
+<guid>http://example.com/blog/./primera-entrada-del-blog.html</guid>
+<dc:creator>John Smith</dc:creator>
+<pubDate>Tue, 25 Apr 2023 02:10:05 +0200</pubDate></item>
+</channel></rss>
