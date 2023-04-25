@@ -20,18 +20,18 @@ global_variables() {
     global_software_version="2.10"
 
     # Blog title
-    global_title="My fancy blog"
+    global_title="El Blog de Blackgallina"
     # The typical subtitle for each blog
-    global_description="A blog about turtles and carrots"
+    global_description="Un blog sobre las cosas que me pasan y que aprendo durante mi vida"
     # The public base URL for this blog
-    global_url="http://example.com/blog"
+    global_url="https://overfeededmonkey.github.io"
 
     # Your name
-    global_author="John Smith"
+    global_author="Carlos Blackgallina"
     # You can use twitter or facebook or anything for global_author_url
-    global_author_url="http://twitter.com/example" 
+    global_author_url="https://twitter.com/bl4ckgallina" 
     # Your email
-    global_email="john@smith.com"
+    global_email="blackgallina@gmail.com"
 
     # CC by-nc-nd is a good starting point, you can change this to "&copy;" for Copyright
     global_license="CC by-nc-nd"
