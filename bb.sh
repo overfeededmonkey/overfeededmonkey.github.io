@@ -110,32 +110,32 @@ global_variables() {
 
     # Localization and i18n
     # "Comments?" (used in twitter link after every post)
-    template_comments="Comments?"
+    template_comments="Comentarios?"
     # "Read more..." (link under cut article on index page)
-    template_read_more="Read more..."
+    template_read_more="Saber más..."
     # "View more posts" (used on bottom of index page as link to archive)
-    template_archive="View more posts"
+    template_archive="Ver más entradas"
     # "All posts" (title of archive page)
-    template_archive_title="All posts"
+    template_archive_title="Todas las entradas"
     # "All tags"
-    template_tags_title="All tags"
+    template_tags_title="Todas las etiquetas"
     # "posts" (on "All tags" page, text at the end of each tag line, like "2. Music - 15 posts")
-    template_tags_posts="posts"
-    template_tags_posts_2_4="posts"  # Some slavic languages use a different plural form for 2-4 items
-    template_tags_posts_singular="post"
+    template_tags_posts="entradas"
+    template_tags_posts_2_4="entradas"  # Some slavic languages use a different plural form for 2-4 items
+    template_tags_posts_singular="entrada"
     # "Posts tagged" (text on a title of a page with index of one tag, like "My Blog - Posts tagged "Music"")
-    template_tag_title="Posts tagged"
+    template_tag_title="Entradas etiquetadas"
     # "Tags:" (beginning of line in HTML file with list of all tags for this article)
-    template_tags_line_header="Tags:"
+    template_tags_line_header="Etiquetas:"
     # "Back to the index page" (used on archive page, it is link to blog index)
-    template_archive_index_page="Back to the index page"
+    template_archive_index_page="de vuelta al Índice"
     # "Subscribe" (used on bottom of index page, it is link to RSS feed)
-    template_subscribe="Subscribe"
+    template_subscribe="Subscribirse"
     # "Subscribe to this page..." (used as text for browser feed button that is embedded to html)
-    template_subscribe_browser_button="Subscribe to this page..."
+    template_subscribe_browser_button="Subscribirse a esta página..."
     # "Tweet" (used as twitter text button for posting to twitter)
     template_twitter_button="Tweet"
-    template_twitter_comment="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;"
+    template_twitter_comment="&lt;Escribe tu comentario aquí pero haz referencia a la URL para que, quien venga, pueda seguir los comentarios&gt;"
     
     # The locale to use for the dates displayed on screen
     date_format="%B %d, %Y"
