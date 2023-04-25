@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>El Blog de Blackgallina</title><link>https://overfeededmonkey.github.io/index.html</link>
 <description>Un blog sobre las cosas que me pasan y que aprendo durante mi vida</description><language>en</language>
-<lastBuildDate>Tue, 25 Apr 2023 19:09:27 +0200</lastBuildDate>
-<pubDate>Tue, 25 Apr 2023 19:09:27 +0200</pubDate>
+<lastBuildDate>Tue, 25 Apr 2023 19:15:05 +0200</lastBuildDate>
+<pubDate>Tue, 25 Apr 2023 19:15:05 +0200</pubDate>
 <atom:link href="https://overfeededmonkey.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Tests de Markdown y cosas que hago
@@ -12,6 +12,7 @@ Tests de Markdown y cosas que hago
 <p>Debido a que soy "estudiante" de programación del programa 42, iré comentando aquellos aspectos más interesantes, complejos o curiosos de los ejercicios que vayamos haciendo,
 tanto para dejalo aquí comentado, como para yo tenerlo para la posteridad y pueda releerlo (y tal vez corregirlo!)</p>
 
+<p>
 ## Lists
 
 Unordered
@@ -94,7 +95,7 @@ Right aligned columns
 [link with title](http://nodeca.github.io/pica/demo/ "title text!")
 
 Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
+</p>
 
 <p>Etiquetas: <a href='tag_test.html'>test</a>, <a href='tag_c.html'>c</a>, <a href='tag_formato.html'>formato</a></p>
 <!-- text end -->
@@ -109,13 +110,10 @@ Primera entrada del Blog
 <p>Esta es la primera entrada del que espero que sea el blog donde queden reflejadas mis acciones y pensamientos
 sobre lo que me va sucediendo en la vida.</p>
 <p>Ahora mismo son las 2:09 AM del 25 de Abril de 2023</p>
-
-<p>Tags: <a href='tag_hello-world.html'>hello-world</a>, <a href='tag_inicio.html'>inicio</a></p>
-
-
+<p>Etiquetas: <a href='tag_test.html'>test</a>, <a href='tag_hello-world.html'>hello-world</a></p>
 <!-- text end -->
 ]]></description><link>https://overfeededmonkey.github.io/primera-entrada-del-blog.html</link>
 <guid>https://overfeededmonkey.github.io/./primera-entrada-del-blog.html</guid>
-<dc:creator>John Smith</dc:creator>
+<dc:creator>Carlos Blackgallina</dc:creator>
 <pubDate>Tue, 25 Apr 2023 18:37:23 +0200</pubDate></item>
 </channel></rss>
