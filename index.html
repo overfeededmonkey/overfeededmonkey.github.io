@@ -26,90 +26,24 @@ Carlos Blackgallina
 <p>Debido a que soy "estudiante" de programación del programa 42, iré comentando aquellos aspectos más interesantes, complejos o curiosos de los ejercicios que vayamos haciendo,
 tanto para dejalo aquí comentado, como para yo tenerlo para la posteridad y pueda releerlo (y tal vez corregirlo!)</p>
 
-<p>
-## Lists
+<h2>Code</h2>
+<p>Inline <code>code</code></p>
+<p>Indented code</p>
+<pre><code>// Some comments
+line 1 of code
+line 2 of code
+line 3 of code
+</code></pre>
+<p>Block code “fences”</p>
+<pre class="hljs"><code>Sample text here...
+</code></pre>
+<p>Syntax highlighting</p>
+<pre class="hljs language-js"><code><span class="hljs-keyword">var</span> foo = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">bar</span>) </span>{
+  <span class="hljs-keyword">return</span> bar++;
+};
 
-Unordered
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-+ Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` c
-#include <stdio.h>
-
-int	main(int argc, char **argv)
-{
-	printf("Hello world!\n");
-	return (0);
-}
-```
-
-## Tables
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-Right aligned columns
-
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-</p>
+<span class="hljs-built_in">console</span>.log(foo(<span class="hljs-number">5</span>));
+</code></pre>
 
 <p>Etiquetas: <a href='tag_test.html'>test</a>, <a href='tag_c.html'>c</a>, <a href='tag_formato.html'>formato</a></p>
 <!-- text end -->
